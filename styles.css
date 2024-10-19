@@ -1,0 +1,73 @@
+body {
+    background-image: url('Mountains.jpg');
+    background-size: cover; /* Cover the entire screen */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent tiling */
+    font-family: 'Font1', sans-serif; /* Default font */
+    background-color: #f0f0f0; /* Light background */
+    color: #333; /* Dark text color */
+    margin: 0;
+    padding: 20px;
+}
+video {
+    min-width: 100%; /* Minimum width to cover the area */
+    min-height: 100%; /* Minimum height to cover the area */
+    width: auto; /* Maintain aspect ratio */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute; /* Position absolutely to allow centering */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust centering */
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: 'Font2', cursive; /* Emotion-driven font */
+    font-size: 3em; /* Large title */
+    color: #580000; /* Color for emphasis */
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #0068e7; /* Subtle color */
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 20px;
+    text-decoration: underline; /* Highlight section */
+    text-align: center;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em; /* Larger font size for readability */
+    line-height: 1.6; /* Space between lines */
+    margin: 15px 0 ; /* Space above and below the paragraph */
+    color: #fff; /* Text color for contrast */
+    background: linear-gradient(45deg, #626262, #f7c6b5); /* Gradient background */
+    padding: 20px; /* Padding around the text */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Soft shadow for depth */
+    text-align: center; /* Center-align the text */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effects */
+}
+
+/* Add hover effect */
+p:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5); /* Deepen shadow on hover */
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #999; /* Lighter text for footer */
+}
